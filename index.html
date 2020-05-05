@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<nav>
+		<div class = "header-container">
+
+			<div class = "dropdown-menu">
+
+				<div class = "bars">
+					<i class="fas fa-bars"></i>
+				</div>
+
+				<div class = "dropdown-list">
+					<ul class = "list">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="#">Favourites</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class = "left-side">
+				<div id = "logo">
+					<img src = "images/logo.png" height="100%" width="100%">
+				</div>
+				<div id = "app-name"><span>Ninja </span><br> <span>Studio</span></div>
+				
+				<div id = "favourites"> 
+					<a href="#">Favourites</a> 
+				</div>
+
+			</div>
+
+			<div class = "right-side">
+
+					<div id = "search">
+					<i class="fas fa-search"></i>
+					<input class = "search-btn" type="text" name="search" placeholder="Search">
+					<i class="fas fa-microphone-alt"></i>
+					</div>
+
+					<div id = "bell-icon">
+						<i class="fas fa-bell"></i>
+					</div>
+
+					<div id = "profile-photo">
+						<img src="images/profile.jpg">
+					</div>
+
+			</div>	
+
+		</div>	
+	</nav>
+
+    <div class="main-body">
+	<main>
+		<div class="carousel">
+			<div class="image1">
+				<img src="images/cor.png" width="100%;">
+			</div>
+			<div class="image2">
+				<img src="images/cor.png" width="100%;">
+			</div>
+			<div class="mid-img">
+				<img src="images/cor.png" width="100%";>
+			</div>		
+		</div>
+
+		<section class="latest-release">
+			<h3 style="color: white">Latest Release</h3>
+			<div class="boxes">
+				<div class="box">
+					<div class="lr-image"><a href="playlist.html"><img src="images/latest.png" height="100%;" width="100%;"></a></div>
+					<div class = "lr-details">
+						<span>Onism<br>AUG 11, 2017</span>
+					</div>
+					<div class="lr-info"><i class="fas fa-ellipsis-h"></i> <br> 4:44</div>
+				</div>
+
+				<div class="box">
+					<div class="lr-image"><a href="playlist.html"><img src="images/latest.png" height="100%;" width="100%;"></a></div>
+					<div class = "lr-details">
+						<span>Onism<br>AUG 11, 2017</span>
+					</div>
+					<div class="lr-info"><i class="fas fa-ellipsis-h"></i> <br> 4:44</div>
+				</div>
+
+				<div class="box">
+					<div class="lr-image"><a href="playlist.html"><img src="images/latest.png" height="100%;" width="100%;"></a></div>
+					<div class = "lr-details">
+						<span>Onism<br>AUG 11, 2017</span>
+					</div>
+					<div class="lr-info"><i class="fas fa-ellipsis-h"></i> <br> 4:44</div>
+				</div>
+
+				<div class="box">
+					<div class="lr-image"><a href="playlist.html"><img src="images/latest.png" height="100%;" width="100%;"></a></div>
+					<div class = "lr-details">
+						<span>Onism<br>AUG 11, 2017</span>
+					</div>
+					<div class="lr-info"><i class="fas fa-ellipsis-h"></i> <br> 4:44</div>
+				</div>			
+			</div>
+		</section>
+
+
+		<section class="popular-artist">
+			<h3 style="color: white">Popular Artists</h3>
+			<div class="artist-container">
+		<div class="artist-info">
+			<div class="artist-img"><img src="images/artist1.jpg.webp" width="100%;"></div>
+			<div class="atrist-name">
+				Ed Sheeran
+			</div>
+		</div>
+		<div class="artist-info">
+			<div class="artist-img"><img src="images/artist2.png.webp" width="100%;"></div>
+			<div class="atrist-name">
+				ColdPlay
+			</div>
+		</div>
+		<div class="artist-info">
+			<div class="artist-img"><img src="images/artist3.png.webp" width="100%;"></div>
+			<div class="atrist-name">
+				Zayn
+			</div>
+		</div>
+		<div class="artist-info">
+			<div class="artist-img"><img src="images/artist4.png.webp" width="100%;"></div>
+			<div class="atrist-name">
+				Charlie Puth
+			</div>
+		</div>
+		<div class="artist-info">
+			<div class="artist-img"><img src="images/artist5.png.webp" width="100%;"></div>
+			<div class="atrist-name">
+				Imagine Dragon
+			</div>
+		</div>
+		<div class="artist-info">
+			<div class="artist-img"><img src="images/artist6.png.webp" width="100%;"></div>
+			<div class="atrist-name">
+				Bruno Mars
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<div class="mood-section">
+		<div class="stations">
+			<img src="images/stations.png" width="100%;">
+		</div>
+		<div class="mood">
+			<div></div>
+			<img src="images/mood1.png" height="100%" width="100%">
+			<span>Meditation</span>
+		</div>
+		<div class="mood">
+			<div></div>
+			<img src="images/mood2.png" height="100%" width="100%">
+			<span>Relaxed</span>
+		</div>
+		<div class="mood">
+			<div></div>
+			<img src="images/mood3.png" height="100%" width="100%">
+			<span>Travel</span>
+		</div>
+		<div class="mood">
+			<div></div>
+			<img src="images/mood4.png" height="100%" width="100%">
+			<span>Romantic</span>
+		</div>
+		<div class="mood">
+			<div></div>
+			<img src="images/mood5.png" height="100%" width="100%">
+			<span>Devotion</span>
+		</div>
+		<div class="mood">
+			<div></div>
+			<img src="images/mood6.png" height="100%" width="100%">
+			<span>Relaxed</span>
+		</div>
+	</div>
+
+	<div class="category">
+		<div class="category-item">
+			<img src="images/poster3.jpg" width="100%;" height="100%">
+			<span>Party</span>
+		</div>
+		<div class="category-item">
+			<img src="images/poster2.jpg" width="100%;" height="100%">
+			<span>Electronic</span>
+		</div>
+		<div class="category-item">
+			<img src="images/poster1.jpg" width="100%;" height="100%">
+			<span>Road Trip</span>
+		</div>
+	</div>
+
+	<section class="latest-eng">
+		<h3 style="color: white">Latest English</h3>
+		<div class="latest-english">
+			<div class="song-info">
+				<img src="images/icon1.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon2.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon3.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon1.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon2.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon3.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="latest-eng">
+		<h3 style="color: white">Latest Hindi</h3>
+		<div class="latest-english">
+			<div class="song-info">
+				<img src="images/icon1.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon2.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon3.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon1.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon2.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+			<div class="song-info">
+				<img src="images/icon3.png" width="100%">
+				<div>Onsim<br>AUG 11, 2017</div>
+			</div>
+		</div>
+	</section>
+	</main>
+	<div class="queue-container">
+		<div class="queue-header">
+			<h1 class="title">Queue</h1>
+			<div><span class="queue-drop">Queue&nbsp&nbsp<i class="fas fa-chevron-circle-down"></i></span></div>
+		</div>
+		<div class="queue-boxes">
+			<div class="queue-box">
+				<div class="s-no"><span>01</span></div>
+				<div class="q-img"><img src="images/icon1.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">Mirage</span><br><span style="font-size: 1rem;">Else</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>02</span></div>
+				<div class="q-img"><img src="images/icon2.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">Worry Bout Us</span><br><span style="font-size: 1rem;">Rosie Lowe</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>03</span></div>
+				<div class="q-img"><img src="images/icon3.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">New Skin</span><br><span style="font-size: 1rem;">Flume</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>04</span></div>
+				<div class="q-img"><img src="images/icon1.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">Worry Bout Us</span><br><span style="font-size: 1rem;">Rosie Lowe</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>05</span></div>
+				<div class="q-img"><img src="images/icon2.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">New Skin</span><br><span style="font-size: 1rem;">Flume</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>06</span></div>
+				<div class="q-img"><img src="images/icon3.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">Mirage</span><br><span style="font-size: 1rem;">Else</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>07</span></div>
+				<div class="q-img"><img src="images/icon1.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">Mirage</span><br><span style="font-size: 1rem;">Else</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>08</span></div>
+				<div class="q-img"><img src="images/icon2.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">Worry Bout Us</span><br><span style="font-size: 1rem;">Rosie Lowe</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>09</span></div>
+				<div class="q-img"><img src="images/icon3.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">New Skin</span><br><span style="font-size: 1rem;">Flume</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>10</span></div>
+				<div class="q-img"><img src="images/icon1.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">Worry Bout Us</span><br><span style="font-size: 1rem;">Rosie Lowe</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>11</span></div>
+				<div class="q-img"><img src="images/icon2.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">New Skin</span><br><span style="font-size: 1rem;">Flume</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+			<div class="queue-box">
+				<div class="s-no"><span>12</span></div>
+				<div class="q-img"><img src="images/icon3.png" width="100%" height="100%;"></div>
+				<div class="song-title"><span style="font-weight: bolder; font-size: 1.1rem;">Mirage</span><br><span style="font-size: 1rem;">Else</span></div>
+				<div class="heart-icon"><i class="far fa-heart"></i></div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<footer>
+		<div class="playing-info">
+			<div class="song-img"><img src="images/icon2.png" height="100%" width="100%"></div>
+			<div class="song-info"><span>Imagine by John</span><br><span>John Lennon</span></div>
+			<div class="heart-icon"><i class="far fa-heart"></i></div>
+			<div class="ban-icon"><i class="fas fa-ban"></i></div>
+		</div>
+		<div class="duration">
+			<div class="controls">
+				<i class="fas fa-random"></i>
+				<i class="fas fa-step-backward"></i>
+				<i class="far fa-pause-circle"></i>
+				<i class="fas fa-step-forward"></i>
+				<i class="fas fa-redo-alt"></i>
+			</div>
+			<div class="play-bar">
+				<div class="start-time" style="width: 5%;"><span style="color: white; text-align: center;">1:39</span></div>
+				<div class="bar" style="width: 55%; height: 0.5rem; margin-left: 10px; margin-right: 5px;">
+					<div class="progress-bar" style="width: 30%; height: 100%; background-color: skyblue">
+						<i class="fas fa-circle"></i>
+					</div>
+				</div>
+				<div class="end-time" style="width: 15%"><span style="color: white; text-align: center;">4:44</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="volume">
+			<div class="icons">
+				<i class="fas fa-stream"></i>
+			</div>
+			<div class="icons">
+				<i class="fas fa-laptop"></i>
+			</div>
+			<div class="icons">
+				<i class="fas fa-volume-up"></i>
+			</div>
+			<div class="volume-bar">
+				<div class="volume-progress">
+					<i class="fas fa-circle"></i>
+				</div>
+			</div>
+			<div class="icons">
+				<i class="fas fa-expand-arrows-alt"></i>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>
